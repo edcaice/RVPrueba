@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - Punto de Prueba -->
+  <style name="IconPuntodePrueba"
+         url="%FIRSTXML%/spots/pin_2d_hole_white_user_defaultpoint0.png"
+         visible="false"
+
+         onhover="onhoverIconPuntodePrueba"
+         onout="onoutIconPuntodePrueba"
+
+         height="8"
+         width="9"
+         />
+
+  <action name="onhoverIconPuntodePrueba">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconPuntodePrueba">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+</krpano>
